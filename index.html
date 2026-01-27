@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DreamDojo</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./static/bulma.min.css" />
+    <link rel="stylesheet" href="./static/bulma-carousel.min.css" />
+    <link rel="stylesheet" href="./static/bulma-slider.min.css" />
+    <link rel="stylesheet" href="./static/fontawesome.all.min.css" />
+    <link rel="stylesheet" href="./static/academicons.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
+    <link rel="stylesheet" href="./static/index.css" />
+
+    <!-- <script src="./static/jquery.min.js"></script> -->
+    <script defer src="./static/fontawesome.all.min.js"></script>
+    <script src="./static/bulma-carousel.min.js"></script>
+    <script src="./static/bulma-slider.min.js"></script>
+    <script src="./static/index.js"></script>
+</head>
+
+<body>
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h1 class="title is-1 publication-title">
+                        <span style="color: rgb(118, 185, 0);"><b>DreamDojo</b></span>
+                    </h1>
+                    <!-- : Towards a Foundation World Model for General-Purpose Robots -->
+                    <h2 class="title is-2 publication-title">Towards a Foundation World Model for General-Purpose Robots</h2>
+                    <div class="is-size-5 publication-authors">
+                        <span class="author-block">
+                            Anonymous Authors
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br />
+
+<section class="video-banner" style="width: 100%; overflow: hidden; position: relative;">
+    <video autoplay muted loop playsinline style="width: 100%; display: block;">
+        <source src="./static/videos/banner.mp4" type="video/mp4">
+    </video>
+</section>
+
+<br />
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column">
+                <h2 class="title is-3">Highlights</h2>
+                <div class="content has-text-justified">
+                    <p style="font-size: 150%;">
+                        <b>A large-scale video dataset</b>: 44k hours of diverse human egocentric videos. The largest dataset to date for world model pretraining.
+                    </p>
+                </div>
+                <div class="content has-text-justified">
+                    <p style="font-size: 150%;">
+                        <b>A foundation world model</b>: the first robot world model of its kind that shows strong generalization to various objects and environments after post-training.
+                    </p>
+                </div>
+                <div class="content has-text-justified">
+                    <p style="font-size: 150%;">
+                        <b>A distillation pipeline</b>: enables autoregressive long-horizon prediction. The final model can be stably interacted with in real-time (10 FPS) for over 1 minute.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-widescreen">
+        <div class="rows">
+            <div class="rows is-centered">
+                <div class="row is-full-width">
+                    <div style="text-align: left;">
+                        <img src="./static/images/overview.png" class="interpolation-image" alt=""
+                            style="display: block; margin-left: auto; margin-right: auto;" />
+                        <br />
+                        <span style="font-size: 110%;">
+                            <b>Overview.</b> DreamDojo acquires comprehensive physical knowledge from large-scale human datasets by utilizing latent actions as unified labels. After post-training and distillation on the target robots, our model can predict the future world in real time with continuous action controls. Consequently, DreamDojo can robustly generalize to various objects and environments, facilitating large-scale policy evaluation without real-world deployment. Its efficiency also enables live teleoperation and model-based planning online.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-widescreen">
+        <div class="rows">
+            <div class="rows is-centered">
+                <div class="row is-full-width">
+                    <h2 class="title is-3"><span class="dvima">Generalization to Various Objects and Environments</span></h2>
+                    <div class="columns is-centered has-text-centered">
+                        <h2 class="title is-4">Unitree G1</h2>
+                    </div>
+                    <div class="container is-max-widescreen">
+                        <div class="columns is-variable is-4">
+                            <div class="column">
+                                <video controls muted autoplay loop preload="none" playsinline width="100%"
+                                    src="./static/videos/banner.mp4" type="video/mp4"
+                                    style="border-radius:10px;"></video>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns is-centered has-text-centered">
+                        <h2 class="title is-4">Fourier GR-1</h2>
+                    </div>
+                    <div class="container is-max-widescreen">
+                        <div class="columns is-variable is-4">
+                            <div class="column">
+                                <video controls muted autoplay loop preload="none" playsinline width="100%"
+                                    src="./static/videos/banner.mp4" type="video/mp4"
+                                    style="border-radius:10px;"></video>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns is-centered has-text-centered">
+                        <h2 class="title is-4">AgiBot</h2>
+                    </div>
+                    <div class="container is-max-widescreen">
+                        <div class="columns is-variable is-4">
+                            <div class="column">
+                                <video controls muted autoplay loop preload="none" playsinline width="100%"
+                                    src="./static/videos/banner.mp4" type="video/mp4"
+                                    style="border-radius:10px;"></video>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns is-centered has-text-centered">
+                        <h2 class="title is-4">Bimanual YAM</h2>
+                    </div>
+                    <div class="container is-max-widescreen">
+                        <div class="columns is-variable is-4">
+                            <div class="column">
+                                <video controls muted autoplay loop preload="none" playsinline width="100%"
+                                    src="./static/videos/banner.mp4" type="video/mp4"
+                                    style="border-radius:10px;"></video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-widescreen">
+        <div class="rows">
+            <div class="rows is-centered">
+                <div class="row is-full-width">
+                    <h2 class="title is-3"><span class="dvima">Real-Time Long-Horizon Generation</span></h2>
+                    <div class="container is-max-widescreen">
+                        <div class="columns is-variable is-4">
+                            <div class="column">
+                                <video controls muted autoplay loop preload="none" playsinline width="100%"
+                                    src="./static/videos/causvid.mp4" type="video/mp4"
+                                    style="border-radius:10px;"></video>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container is-max-widescreen">
+                        <div class="columns is-variable is-4">
+                            <div class="column">
+                                <video controls muted autoplay loop preload="none" playsinline width="100%"
+                                    src="./static/videos/teleop.mov" type="video/mp4"
+                                    style="border-radius:10px;"></video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-widescreen">
+        <div class="rows">
+            <div class="rows is-centered">
+                <div class="row is-full-width">
+                    <h2 class="title is-3"><span class="dvima">Benefit Robot Learning</span></h2>
+                    <div class="container is-max-widescreen">
+                        <div class="columns is-variable is-4">
+                            <div class="column">
+                                <h2 class="title is-4">Policy Evaluation</h2>
+                                <img src="./static/images/correlation.png" class="interpolation-image" alt=""
+                                    style="display: block; margin-left: auto; margin-right: auto;" />
+                                <br />
+                            </div>
+                            <div class="column">
+                                <h2 class="title is-4">Model-Based Planning</h2>
+                                <img src="./static/images/mpc.png" class="interpolation-image" alt=""
+                                    style="display: block; margin-left: auto; margin-right: auto;" />
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</html>
