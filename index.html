@@ -33,8 +33,7 @@
                     <h1 class="title is-1 publication-title">
                         <span style="color: rgb(118, 185, 0);"><b>DreamDojo</b></span>
                     </h1>
-                    <!-- : Towards a Foundation World Model for General-Purpose Robots -->
-                    <h2 class="title is-2 publication-title">Towards a Foundation World Model for General-Purpose Robots</h2>
+                    <h2 class="title is-2 publication-title">A Real-Time Robot World Model from Large-Scale Human Videos</h2>
                     <div class="is-size-5 publication-authors">
                         <span class="author-block">
                             Anonymous Authors
@@ -46,15 +45,15 @@
     </div>
 </section>
 
-<br />
+<!-- <br />
 
-<section class="video-banner" style="width: 100%; overflow: hidden; position: relative;">
+<section class="video-banner" style="width: 50%; overflow: hidden; position: relative; margin-left: auto; margin-right: auto;">
     <video autoplay muted loop playsinline style="width: 100%; display: block;">
         <source src="./static/videos/banner.mp4" type="video/mp4">
     </video>
 </section>
 
-<br />
+<br /> -->
 
 <section class="section">
     <div class="container is-max-desktop">
@@ -73,7 +72,7 @@
                 </div>
                 <div class="content has-text-justified">
                     <p style="font-size: 150%;">
-                        <b>A distillation pipeline</b>: enables autoregressive long-horizon prediction. The final model can be stably interacted with in real-time (10 FPS) for over 1 minute.
+                        <b>A distillation pipeline</b>: enables autoregressive long-horizon prediction. The final model can be stably interacted with in real time (10 FPS) for over 1 minute.
                     </p>
                 </div>
             </div>
@@ -91,7 +90,7 @@
                             style="display: block; margin-left: auto; margin-right: auto;" />
                         <br />
                         <span style="font-size: 110%;">
-                            <b>Overview.</b> DreamDojo acquires comprehensive physical knowledge from large-scale human datasets by utilizing latent actions as unified labels. After post-training and distillation on the target robots, our model can predict the future world in real time with continuous action controls. Consequently, DreamDojo can robustly generalize to various objects and environments, facilitating large-scale policy evaluation without real-world deployment. Its efficiency also enables live teleoperation and model-based planning online.
+                            <b>Overview.</b> DreamDojo acquires comprehensive physical knowledge from large-scale human datasets by utilizing latent actions as unified labels. After post-training and distillation on the target robots, our model can predict the future world in real time with continuous action controls. \ourmethod can robustly generalize to various objects and environments, facilitating large-scale policy evaluation without real-world deployment. It also enables live teleoperation and online model-based planning.
                         </span>
                     </div>
                 </div>
@@ -113,7 +112,7 @@
                         <div class="columns is-variable is-4">
                             <div class="column">
                                 <video controls muted autoplay loop preload="none" playsinline width="100%"
-                                    src="./static/videos/banner.mp4" type="video/mp4"
+                                    src="./static/videos/g1.mp4" type="video/mp4"
                                     style="border-radius:10px;"></video>
                             </div>
                         </div>
@@ -125,7 +124,7 @@
                         <div class="columns is-variable is-4">
                             <div class="column">
                                 <video controls muted autoplay loop preload="none" playsinline width="100%"
-                                    src="./static/videos/banner.mp4" type="video/mp4"
+                                    src="./static/videos/gr1.mp4" type="video/mp4"
                                     style="border-radius:10px;"></video>
                             </div>
                         </div>
@@ -137,7 +136,7 @@
                         <div class="columns is-variable is-4">
                             <div class="column">
                                 <video controls muted autoplay loop preload="none" playsinline width="100%"
-                                    src="./static/videos/banner.mp4" type="video/mp4"
+                                    src="./static/videos/agibot.mp4" type="video/mp4"
                                     style="border-radius:10px;"></video>
                             </div>
                         </div>
@@ -149,7 +148,7 @@
                         <div class="columns is-variable is-4">
                             <div class="column">
                                 <video controls muted autoplay loop preload="none" playsinline width="100%"
-                                    src="./static/videos/banner.mp4" type="video/mp4"
+                                    src="./static/videos/yam.mp4" type="video/mp4"
                                     style="border-radius:10px;"></video>
                             </div>
                         </div>
@@ -169,8 +168,9 @@
                     <div class="container is-max-widescreen">
                         <div class="columns is-variable is-4">
                             <div class="column">
+                                <h2 class="title is-4">[Left] Teacher vs. [Right] Student</h2>
                                 <video controls muted autoplay loop preload="none" playsinline width="100%"
-                                    src="./static/videos/causvid.mp4" type="video/mp4"
+                                    src="./static/videos/compare.mp4" type="video/mp4"
                                     style="border-radius:10px;"></video>
                             </div>
                         </div>
@@ -178,8 +178,9 @@
                     <div class="container is-max-widescreen">
                         <div class="columns is-variable is-4">
                             <div class="column">
+                                <h2 class="title is-4">Live Teleoperation</h2>
                                 <video controls muted autoplay loop preload="none" playsinline width="100%"
-                                    src="./static/videos/teleop.mov" type="video/mp4"
+                                    src="./static/videos/teleop.mp4" type="video/mp4"
                                     style="border-radius:10px;"></video>
                             </div>
                         </div>
@@ -205,7 +206,7 @@
                                 <br />
                             </div>
                             <div class="column">
-                                <h2 class="title is-4">Model-Based Planning</h2>
+                                <h2 class="title is-4">Model-based Planning</h2>
                                 <img src="./static/images/mpc.png" class="interpolation-image" alt=""
                                     style="display: block; margin-left: auto; margin-right: auto;" />
                                 <br />
